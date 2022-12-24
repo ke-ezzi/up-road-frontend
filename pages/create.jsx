@@ -154,10 +154,10 @@ function Create() {
           <Advertisement />
       </section>
       </div>
-      <section className="fixed bottom-0 left-0 w-full bg-[#555555]">
-        <div className='w-4/5 h-12 mx-auto flex justify-end items-center'>
-          <button className='mx-2 px-8 text-lg bg-[#D9D9D9] rounded-2xl'>Private</button>
-          <button className='mx-2 px-8 text-lg bg-[#D9D9D9] rounded-2xl' onClick={createArticle}>Public</button>
+      <section className="fixed bottom-0 left-0 w-full bg-[#404040]">
+        <div className='w-4/5 h-20 mx-auto flex justify-end items-center'>
+          <button className='mx-4 px-10 text-lg bg-[#dedede] rounded-2xl'>Private</button>
+          <button className='mx-4 px-10 text-lg bg-[#dedede] rounded-2xl' onClick={createArticle}>Public</button>
         </div>
       </section>
     </main>

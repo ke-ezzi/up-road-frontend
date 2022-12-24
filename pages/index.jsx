@@ -76,11 +76,11 @@ export default function Home() {
 
   return (
     <main className='w-full h-auto mx-auto'>
-      <section className='pt-32 h-[600px] bg-[#F1F1F1] text-center'>
+      <section className='pt-32 h-[710px] bg-[#F1F1F1] text-center'>
         <div className='text-3xl text-[#393939]'>Get started with Up-road</div>
         <div className='text-5xl text-[#000] font-semibold'>What are you looking up-to?</div>
         <div>
-          <div className="relative mt-12 w-[900px] mx-auto">
+          <div className="relative mt-10 w-[900px] h-[160px] mx-auto">
             <div className="absolute top-0 transform translate-y-1/2 left-4">
               <Image 
                 src="/assets/Search-icon.svg"
@@ -106,6 +106,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+          <Image
+          src="/assets/Home-chracter.svg"
+          alt="latest"
+          width={1383}
+          height={301}
+          />
       </section>
       <section className="w-[900px] mt-20 mx-auto">
         <div className="flex justify-start items-center">
@@ -129,7 +135,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-[900px] mt-12 mx-auto">
+      <section className="w-[900px] h-[80px] mb-80 mx-auto">
         {
           articles.map((article, index) => {
             return (
